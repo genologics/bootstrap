@@ -2,7 +2,7 @@ VERSION=1.3.0
 DATE=$(shell DATE)
 BOOTSTRAP = ./bootstrap.css
 BOOTSTRAP_MIN = ./bootstrap.min.css
-BOOTSTRAP_LESS = ./lib/bootstrap.less
+BOOTSTRAP_LESS = ./lib/bootstrap-gls.less
 LESS_COMPESSOR ?= `which lessc`
 WATCHR ?= `which watchr`
 
